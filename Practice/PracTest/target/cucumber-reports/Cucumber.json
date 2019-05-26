@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate successful login with correct credentials",
+        "description": "",
+        "id": "test-functionality-that-user-is-logged-in-and-successfully-able-to-add-the-product-to-cart;validate-successful-login-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14948572900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2735883200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters correct username and password",
+            "match": {
+              "location": "stepDefinition.user_enters_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3632938100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login successful",
+            "match": {
+              "location": "stepDefinition.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Validate successful addition to cart",
+        "description": "",
+        "id": "test-functionality-that-user-is-logged-in-and-successfully-able-to-add-the-product-to-cart;validate-successful-addition-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5427377400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is logged in and searching item",
+            "match": {
+              "location": "stepDefinition.user_is_logged_in_and_searching_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1581164300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks add to cart",
+            "match": {
+              "location": "stepDefinition.user_clicks_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4026113700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "product is added to cart",
+            "match": {
+              "location": "stepDefinition.product_is_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Validate logout",
+        "description": "",
+        "id": "test-functionality-that-user-is-logged-in-and-successfully-able-to-add-the-product-to-cart;validate-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48670700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162360200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks logout button",
+            "match": {
+              "location": "stepDefinition.user_clicks_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3230767300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is logged out",
+            "match": {
+              "location": "stepDefinition.user_is_logged_out()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test functionality that user is logged in and successfully able to add the product to cart",
+    "description": "",
+    "id": "test-functionality-that-user-is-logged-in-and-successfully-able-to-add-the-product-to-cart",
+    "keyword": "Feature",
+    "uri": "scenario.feature"
+  }
+]

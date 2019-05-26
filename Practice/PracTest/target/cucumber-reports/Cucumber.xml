@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="35.793847">
+<testcase classname="Test functionality that user is logged in and successfully able to add the product to cart" name="Validate successful login with correct credentials" time="21.317394">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When user enters correct username and password..............................passed
+Then login successful.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test functionality that user is logged in and successfully able to add the product to cart" name="Validate successful addition to cart" time="11.034655">
+<system-out><![CDATA[Given User is logged in and searching item..................................passed
+When user clicks add to cart................................................passed
+Then product is added to cart...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test functionality that user is logged in and successfully able to add the product to cart" name="Validate logout" time="3.441798">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When user clicks logout button..............................................passed
+Then user is logged out.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

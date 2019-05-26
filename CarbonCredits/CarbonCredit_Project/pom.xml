@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.carboncredits</groupId>
+  <artifactId>CarbonCredit_Project</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>CarbonCredit_Project</name>
+  <url>http://maven.apache.org</url>
+ <dependencies>
+ <!--  this is a gherkin dependency  -->
+   <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>2.12.2</version>
+    <scope>provided</scope>
+</dependency>
+
+
+ <!--  this is a cucumber reporting dependency  -->
+<dependency>
+    <groupId>org.uniknow.agiledev</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>0.1.14</version>
+</dependency>
+
+<!--  this is a cucumber jvm deps dependency  -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.5</version>
+    <scope>provided</scope>
+</dependency>
+
+ <!--  this is a cucumber junit dependency  -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.4</version>
+    <scope>test</scope>
+</dependency>
+
+ <!--  this is a cucumber java dependency  -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.4</version>
+</dependency>
+
+ <!--  this is a cucumber core dependency  -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>1.2.4</version>
+</dependency>
+
+ <!--  this is a hamcrest  dependency  -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-all</artifactId>
+    <version>1.1</version>
+    <scope>test</scope>
+</dependency>
+
+ <!--  this is a jchronic dependency  -->
+<dependency>
+    <groupId>com.rubiconproject.oss</groupId>
+    <artifactId>jchronic</artifactId>
+    <version>0.2.6</version>
+</dependency>
+
+ <!--  this is a selenium dependency  -->
+<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.13.0</version>
+    </dependency>
+    
+<!--  this is a commons io dependency  -->  
+    <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!--  this is a json dependency  -->  
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20180130</version>
+</dependency>
+   </dependencies>
+</project>
